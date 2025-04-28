@@ -1,0 +1,16 @@
+{
+  "name": "devops-perm-explorer",
+  "version": "1.0.0",
+  "description": "Azure DevOps PAT permission tester. Checks access to projects and some project specific APIs. If you find a PAT exposed in your organisation, you can test it with this script to understand the exposed attack surface.",
+  "type": "module",
+  "scripts": {
+    "run": "bun run devops-perm-explorer.ts"
+  },
+  "dependencies": {
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.0",
+    "typescript": "^5.0.4"
+  }
+}
